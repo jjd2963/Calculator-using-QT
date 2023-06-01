@@ -10,6 +10,4 @@ The tutorial had two flaws: the calculator app was made using an older version o
 I first addressed the global variables. They all had a simple fix which was instead of listing it at the top of the cpp file, they needed to be added as private members
 the class. 
 
-The second flaw was that QT removed support for QRegExp in the newest version of the program which the tutorial relied heavily on. I searched a list of new and removed
-features and through some trial and error, I fixed the issue by implementing QT6's QRegularExpression into the program which had some major
-differences to QT5's QRegExp.
+The second flaw was that QT removed support for QRegExp in the newest version of the program which the tutorial relied heavily on. I found that QT5's QRegExp was no longer supported. instead I had to implement QT6's QRegularExpression function which had a completely different list of implemenatations. Through trial and error, I was able to replace any instance of QRegExp into QRegularExpression. Specifically, I altered the code so that the ChangeNumberSign() function worked as intended. 
