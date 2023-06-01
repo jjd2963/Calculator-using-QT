@@ -1,4 +1,4 @@
-# Calculator-using-QT
+# Calculator-using-QT-Widgets
 
 I followed a tutorial explaining how QT widgets work and the basics of building a calculator GUI. All of my programming before attempting this calculator program
 had been run through the terminal. This was the first time I attempted to build a GUI and connecting to code that works. 
