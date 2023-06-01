@@ -1,7 +1,7 @@
 # Calculator-using-QT-Widgets
 
 I followed a tutorial explaining how QT widgets work and the basics of building a calculator GUI. All of my programming before attempting this calculator program
-had been run through the terminal. This was the first time I attempted to build a GUI and connecting to code that works. 
+had been run through the terminal. This was the first time I attempted to build frontend code and connecting it to backened code. 
 
 The tutorial had missing functions that challenged me to write my own code to complete the calculator. I coded the MemAddClearGet() function as well 
 as the Clear() function. I connected those to the GUI using the steps that the tutorial instructed for previous functions.
